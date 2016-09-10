@@ -2084,7 +2084,7 @@ programming model.
 The above holds true for the various template classes in Springs support for various ORM
 frameworks. If one uses the interceptor-based classes then the application must care
 about handling `HibernateExceptions` and `PersistenceExceptions` itself, preferably via
-delegating to `SessionFactoryUtils`' `convertHibernateAccessException(..)` or
+delegating to `SessionFactoryUtils`{rsquo} `convertHibernateAccessException(..)` or
 `convertJpaAccessException()` methods respectively. These methods convert the exceptions
 to ones that are compatible with the exceptions in the `org.springframework.dao`
 exception hierarchy. As `PersistenceExceptions` are unchecked, they can simply get
